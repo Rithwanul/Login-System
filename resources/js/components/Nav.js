@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Nav = () => {
     return(
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-            <Link className="navbar-brand text-dark" to="">Navbar</Link>
+            <Link className="navbar-brand text-dark" to="/">Navbar</Link>
             <button className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"

@@ -6,6 +6,7 @@ import {
     Link,
     Route
 } from "react-router-dom";
+import Home from './Navigation/Home.js';
 
 import Nav from './Nav.js';
 
@@ -16,7 +17,7 @@ function Example() {
             <>
                 <Nav />
                 <Switch>
-
+                    <Route path="/" exact component={Home} />
                 </Switch>
             </>
         </Router>
